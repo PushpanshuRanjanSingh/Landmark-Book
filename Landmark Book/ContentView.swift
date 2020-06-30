@@ -10,7 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+//        NavigationView{
+//            VStack{
+//                NavigationLink(destination: ArchitectureListView()){
+//                                Text("ArchitectureListView")
+//                                    .font(.headline)
+//                                    .fontWeight(.semibold)
+//                                    .padding()
+//                //                    .background(Color("proBlue"))
+//                                    .foregroundColor(Color("proBlue"))
+//                            }
+//            }
+//        }
+        Text("Hello")
     }
 }
 

@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A37136124ABCF0400037A19 /* ArchitectureListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A37136024ABCF0400037A19 /* ArchitectureListDetailView.swift */; };
+		5A37136324ABCFE700037A19 /* ArchitectureCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A37136224ABCFE700037A19 /* ArchitectureCircleImageView.swift */; };
 		5A611C1224ABAF1C0033F773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C1124ABAF1C0033F773 /* AppDelegate.swift */; };
 		5A611C1424ABAF1C0033F773 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C1324ABAF1C0033F773 /* SceneDelegate.swift */; };
 		5A611C1624ABAF1C0033F773 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C1524ABAF1C0033F773 /* ContentView.swift */; };
 		5A611C1824ABAF1C0033F773 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A611C1724ABAF1C0033F773 /* Assets.xcassets */; };
 		5A611C1B24ABAF1C0033F773 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A611C1A24ABAF1C0033F773 /* Preview Assets.xcassets */; };
 		5A611C1E24ABAF1C0033F773 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A611C1C24ABAF1C0033F773 /* LaunchScreen.storyboard */; };
+		5A611C2624ABAF6E0033F773 /* ArchitectureListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C2524ABAF6E0033F773 /* ArchitectureListView.swift */; };
+		5A611C2824ABAF9E0033F773 /* ArchitectureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C2724ABAF9E0033F773 /* ArchitectureModel.swift */; };
+		5A611C2A24ABBC4E0033F773 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A611C2924ABBC4E0033F773 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A37136024ABCF0400037A19 /* ArchitectureListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureListDetailView.swift; sourceTree = "<group>"; };
+		5A37136224ABCFE700037A19 /* ArchitectureCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureCircleImageView.swift; sourceTree = "<group>"; };
 		5A611C0E24ABAF1C0033F773 /* Landmark Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Landmark Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A611C1124ABAF1C0033F773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A611C1324ABAF1C0033F773 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		5A611C1A24ABAF1C0033F773 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5A611C1D24ABAF1C0033F773 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A611C1F24ABAF1C0033F773 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A611C2524ABAF6E0033F773 /* ArchitectureListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureListView.swift; sourceTree = "<group>"; };
+		5A611C2724ABAF9E0033F773 /* ArchitectureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitectureModel.swift; sourceTree = "<group>"; };
+		5A611C2924ABBC4E0033F773 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				5A611C1124ABAF1C0033F773 /* AppDelegate.swift */,
 				5A611C1324ABAF1C0033F773 /* SceneDelegate.swift */,
 				5A611C1524ABAF1C0033F773 /* ContentView.swift */,
+				5A611C2724ABAF9E0033F773 /* ArchitectureModel.swift */,
+				5A611C2524ABAF6E0033F773 /* ArchitectureListView.swift */,
+				5A611C2924ABBC4E0033F773 /* MapView.swift */,
+				5A37136224ABCFE700037A19 /* ArchitectureCircleImageView.swift */,
+				5A37136024ABCF0400037A19 /* ArchitectureListDetailView.swift */,
 				5A611C1724ABAF1C0033F773 /* Assets.xcassets */,
 				5A611C1C24ABAF1C0033F773 /* LaunchScreen.storyboard */,
 				5A611C1F24ABAF1C0033F773 /* Info.plist */,
@@ -148,7 +163,12 @@
 			files = (
 				5A611C1224ABAF1C0033F773 /* AppDelegate.swift in Sources */,
 				5A611C1424ABAF1C0033F773 /* SceneDelegate.swift in Sources */,
+				5A611C2A24ABBC4E0033F773 /* MapView.swift in Sources */,
+				5A611C2824ABAF9E0033F773 /* ArchitectureModel.swift in Sources */,
 				5A611C1624ABAF1C0033F773 /* ContentView.swift in Sources */,
+				5A37136324ABCFE700037A19 /* ArchitectureCircleImageView.swift in Sources */,
+				5A611C2624ABAF6E0033F773 /* ArchitectureListView.swift in Sources */,
+				5A37136124ABCF0400037A19 /* ArchitectureListDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
